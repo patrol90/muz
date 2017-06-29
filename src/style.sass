@@ -1,0 +1,194 @@
+@import "_fonts.sass"
+
+$font-main:   FuturaPT
+$font-heavy:   FuturaPTHeavy
+$primary-color: #df2400
+$background:  #f1f1f1
+
+ul
+  -webkit-padding-start: 0px
+  margin-bottom: 0
+
+*
+  outline: none
+
+header
+  height: 216px
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15)
+
+.top-bar
+  border-bottom-color: rgba(0, 0, 0, 0.2)
+  border-bottom-style: solid
+  border-bottom-width: 1px
+  height: 56px
+  display: flex
+  align-items: center
+  .row
+    display: flex
+    align-items: center
+.top-logo
+  height: 77px
+  border-bottom-color: rgba(0, 0, 0, 0.2)
+  border-bottom-style: solid
+  border-bottom-width: 1px
+  display: flex
+  align-items: center
+
+.top-menu
+  height: 83px
+  display: flex
+  align-items: center
+.top-menu .row
+  display: flex
+  align-items: center
+
+.search
+  position: relative
+  input[type="text"]
+    border-radius: 2px
+    border-width: 1px
+    border-color:  #cccccc
+    border-style: solid
+    background-color:  #fefefe
+    width: 100%
+    height: 38px
+  input[type="submit"]
+    position: absolute
+    border: 0px
+    background: url(../img/search.png)60%
+    width: 25px
+    height: 23px
+    background-size: 130%
+    top: 7px
+    left: 25px
+
+.menu ul li
+  list-style: none
+  font-family: $font-heavy
+  color:  #000000
+  font-size: 15px
+  font-weight: 800
+  text-align: left
+  text-transform: uppercase
+
+.menu ul li:hover
+  color: $primary-color
+  cursor: pointer
+
+.menu ul
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.cart-favorite
+  display: flex
+  justify-content: space-between
+
+  div
+    width: 27px
+    height: 24px
+  .cart
+    background: url("../img/cart_ico.png")
+  .favorite
+    background: url("../img/cart_ico.png")
+    background-position: 100%
+
+
+.phones ul
+  display: flex
+  justify-content: space-between
+  .vel:before
+    content: ''
+    width: 18px
+    height: 18px
+    background: url("../img/header-ico.png")
+    margin-right: 7px
+    background-position-x: -135px
+  .mts:before
+    content: ''
+    width: 18px
+    height: 18px
+    background: url("../img/header-ico.png")
+    background-position-y: -2px
+    margin-right: 7px
+
+  li
+    font-family: $font-main
+    color:  #000000
+    font-size: 14px
+    font-weight: 300
+    text-align: left
+    list-style: none
+    display: flex
+
+.viber-skype
+  ul
+    display: flex
+    justify-content: space-around
+    li
+      list-style: none
+      display: flex
+      align-items: center
+      justify-content: center
+    li:before
+      content: ''
+      display: block
+      width: 23px
+      height: 23px
+      margin-right: 7px
+    .viber:before
+      background: url("../img/header-ico.png")
+      background-position-x: -298px
+    .skype:before
+      background: url("../img/header-ico.png")
+      background-position-x: -380px
+    .email:before
+        background: url("../img/header-ico.png")
+        background-position-x: -463px
+.work-time
+  font-family: FuturaPTBook
+  color:  #000000
+  font-size: 16px
+  font-weight: 300
+
+  div
+    display: flex
+    justify-content: center
+
+  div:before
+    content: ''
+    width: 20px
+    height: 20px
+    background: url("../img/header-ico.png")
+    background-position-x: -702px
+    background-position-y: -1px
+    margin-right: 7px
+.login-register
+  div
+    display: flex
+    font-family: FuturaPTBook
+    color:  #000000
+    font-size: 16px
+    font-weight: 300
+    justify-content: center
+    height: 29px
+    align-items: center
+    transition: 0.5s
+    a
+      color:  #000000
+      text-decoration: none
+  div:before
+    content: ''
+    width: 20px
+    height: 20px
+    background: url("../img/header-ico.png")
+    background-position-x: 100%
+    background-position-y: -1px
+    margin-right: 7px
+  div:hover
+    border-radius: 2px
+    border-width: 1px
+    border-color:  #7f7f7f
+    border-style: solid
+    background-color:  #f6f6f6
+    text-decoration: none

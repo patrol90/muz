@@ -1,0 +1,146 @@
+.breadcrumb
+  height: 65px
+  background: none
+  color: #a1a1a1
+  font-family: FuturaPTBook
+  font-size: 12px
+  text-decoration: underline
+  display: flex
+  align-items: center
+  margin-bottom: 0
+  li
+    list-style: none
+    display: inline-block
+    a
+      text-decoration: underline
+    &:before
+      content: '>'
+      text-decoration: none
+      padding: 0 0.3em
+    &:first-of-type
+      &:before
+        content: none
+  .last a
+    text-decoration: none
+.product-block-desc-cart
+  .article
+    color: #d42b1e
+    font-family: FuturaPTBook
+    font-size: 16px
+  .title
+    color: #000
+    font-family: $font-main
+    font-size: 24px
+    line-height: 32px
+    margin: 0 0
+  .status
+    margin: 20px 0 40px 0
+    ul
+      display: flex
+      justify-content: space-between
+    li
+      list-style: none
+      display: inline-flex
+    .store
+    .in-store
+      color: #2ac178
+      font-family: Roboto
+      font-size: 14px
+
+      &:before
+        content: ''
+        width: 16px
+        height: 16px
+        display: inline-block
+        background: url("../img/status-ico.png")
+        margin-right: 0.2em
+    .no-store
+      color: #df2400
+      font-family: Roboto
+      font-size: 14px
+
+      &:before
+        content: ''
+        width: 16px
+        height: 16px
+        display: inline-block
+        background: url("../img/product-status-ico.png")
+        margin-right: 0.2em
+        background-position-y: -41px
+
+    .pre-store
+      color: #ffd83f
+      font-family: Roboto
+      font-size: 14px
+
+      &:before
+        content: ''
+        width: 16px
+        height: 16px
+        display: inline-block
+        background: url("../img/product-status-ico.png")
+        margin-right: 0.2em
+        background-position-y: -81px
+
+    .delivery
+      color: #2c7ef8
+      font-family: Roboto
+      font-size: 14px
+      &:before
+        content: ''
+        width: 20px
+        height: 20px
+        display: inline-block
+        background: url("../img/status-ico.png")
+        background-position-x: -126px
+        background-repeat: no-repeat
+        margin-right: 0.2em
+
+    .feedback
+      color: #9b9b9c
+      font-family: Roboto
+      font-size: 14px
+      &:before
+        content: ''
+        width: 20px
+        height: 20px
+        display: inline-block
+        background: url("../img/status-ico.png")
+        background-position-x: -356px
+        background-repeat: no-repeat
+        margin-right: 0.2em
+  .price-block
+    div
+      display: inline-block
+
+    .old-price
+      color: #000
+      font-family: $font-main
+      font-size: 32px
+      text-decoration: line-through
+
+    .action
+      color: #d42b1e
+      font-family: $font-main
+      font-size: 32px
+      margin-right: 20px
+  .cart-block
+    button
+      width: 200px
+      height: 50px
+      text-transform: uppercase
+      border: 0px
+
+    .add-to-cart
+      background: $primary-color
+      color: #fff
+      font-family: FuturaPT
+      font-size: 16px
+      &:hover
+        background-color: #eb2f21
+        box-shadow: 0 0 5px rgba(0,0,0,.3)
+
+
+
+
+

@@ -125,20 +125,102 @@
       font-size: 32px
       margin-right: 20px
   .cart-block
+    margin-top: 40px
+    margin-bottom: 35px
+    display: flex
     button
-      width: 200px
       height: 50px
       text-transform: uppercase
       border: 0px
+      font-family: FuturaPT
+      display: flex
+      justify-content: center
+      align-items: center
 
     .add-to-cart
+      width: 200px
       background: $primary-color
       color: #fff
-      font-family: FuturaPT
       font-size: 16px
+      margin-right: 1em
+      box-sizing: border-box
       &:hover
         background-color: #eb2f21
         box-shadow: 0 0 5px rgba(0,0,0,.3)
+      &:active
+        border: 3px solid #b52519
+        background-color: #d52b1d
+
+    .add-to-lovely
+      width: 180px
+      max-width: 180px
+      background: white
+      border: 1px solid #808080
+      color: #808080
+      position: relative
+      font-size: 16px
+      &:hover
+        border-color: $primary-color
+        z-index: 10
+        color: $primary-color
+        svg
+          fill: $primary-color
+      &:active
+        background: #f2f2f2
+        svg
+          fill: $primary-color
+      svg
+        width: 16px
+        height: 16px
+        fill: #808080
+        margin-right: 0.5em
+
+    .add-to-compare
+      width: 180px
+      max-width: 180px
+      background: white
+      border: 1px solid #808080
+      color: #808080
+      margin-left: -1px
+      position: relative
+      font-size: 16px
+      svg
+        width: 16px
+        height: 16px
+        margin-right: 0.5em
+        fill: #808080
+      &:hover
+        border-color: $primary-color
+        z-index: 10
+        color: $primary-color
+        svg
+          fill: $primary-color
+      &:active
+        background: #f2f2f2
+
+  .social-block
+    div
+      display: inline-flex
+      align-items: center
+      cursor: pointer
+      font-size: 16px
+      margin-right: 1em
+
+    object
+      width: 25px
+      height: 25px
+    .arrow
+      max-height: 12px
+    .vk
+      span
+        color: #6383a7
+    .face
+      span
+        color: #3a5998
+    .twit
+      span
+        color: #1da1f2
+
 
 
 

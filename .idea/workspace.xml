@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb8a4834-76a3-4fd8-965d-604701cd185e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/main-carousel/Union.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/main-carousel/bascket-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/main-carousel/basket.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/main-carousel/heard-01.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/main-carousel/heard-active.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/main-carousel/heard-╤Г╨╢╨╡ ╨╜╨░╨╢╨░╨╗╨╕-01.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/img/main-carousel/heard.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="$PROJECT_DIR$/app/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/product.html" afterPath="$PROJECT_DIR$/app/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_product.sass" afterPath="$PROJECT_DIR$/src/_product.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/_main-page.sass" afterPath="$PROJECT_DIR$/src/_main-page.sass" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,12 +35,11 @@
       <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="111" column="46" lean-forward="false" selection-start-line="111" selection-start-column="46" selection-end-line="111" selection-end-column="46" />
+            <state relative-caret-position="335">
+              <caret line="334" column="78" lean-forward="false" selection-start-line="334" selection-start-column="78" selection-end-line="334" selection-end-column="78" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -43,11 +48,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_product.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_product.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_product.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="718">
               <caret line="265" column="22" lean-forward="false" selection-start-line="265" selection-start-column="22" selection-end-line="265" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basket.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/main-carousel/basket.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bascket-black.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/main-carousel/bascket-black.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -70,11 +95,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_main-page.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_main-page.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/_main-page.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1566">
-              <caret line="87" column="19" lean-forward="false" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+            <state relative-caret-position="184">
+              <caret line="445" column="16" lean-forward="true" selection-start-line="445" selection-start-column="16" selection-end-line="445" selection-end-column="16" />
+              <folding>
+                <element signature="e#9153#9830#2" expanded="true" />
+                <element signature="e#9873#10554#2" expanded="true" />
+                <element signature="e#10598#11279#2" expanded="true" />
+                <element signature="e#11404#13145#2" expanded="true" />
+                <element signature="e#13337#14958#2" expanded="true" />
+                <element signature="e#15040#17089#2" expanded="true" />
+                <element signature="e#17174#19223#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Union.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/main-carousel/Union.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,23 +130,6 @@
               <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vector Smart Object.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/img/main-carousel/Vector Smart Object.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -143,6 +169,7 @@
       <find>caption</find>
       <find>phone</find>
       <find>main-page-carousel</find>
+      <find>add-to-favorite</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,10 +192,12 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/src/product.sass" />
         <option value="$PROJECT_DIR$/src/-main-page.sass" />
-        <option value="$PROJECT_DIR$/src/_main-page.sass" />
         <option value="$PROJECT_DIR$/src/style.sass" />
         <option value="$PROJECT_DIR$/app/product.html" />
         <option value="$PROJECT_DIR$/src/_product.sass" />
+        <option value="$PROJECT_DIR$/app/img/main-carousel/Union.svg" />
+        <option value="$PROJECT_DIR$/app/img/main-carousel/basket.svg" />
+        <option value="$PROJECT_DIR$/src/_main-page.sass" />
       </list>
     </option>
   </component>
@@ -184,8 +213,8 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-3" />
-    <option name="width" value="1926" />
-    <option name="height" value="1050" />
+    <option name="width" value="1922" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -230,6 +259,46 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="muz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="muz" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="muz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="muz" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main-carousel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -250,10 +319,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/img/main-carousel" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/img" />
       <recent name="$PROJECT_DIR$/app/fonts" />
-      <recent name="$PROJECT_DIR$/app/img/main-carousel" />
       <recent name="$PROJECT_DIR$/app/img/main-catalog" />
     </key>
   </component>
@@ -368,12 +437,12 @@
       <workItem from="1499151848217" duration="6000" />
       <workItem from="1499158623100" duration="16695000" />
       <workItem from="1499232650055" duration="8305000" />
-      <workItem from="1499246081080" duration="2337000" />
+      <workItem from="1499246081080" duration="7673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67906000" />
+    <option name="totallyTimeSpent" value="73242000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,18 +454,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1926" height="1050" extended-state="7" />
+    <frame x="-3" y="0" width="1922" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28556034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3762162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12753469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2502674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -471,24 +540,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/img/cart_ico.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/img/search.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_fonts.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/jquery-3.2.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -685,6 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -705,14 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_main-page.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="87" column="19" lean-forward="false" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -752,14 +796,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/main-carousel/Union.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/main-carousel/bascket-black.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/main-carousel/basket.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="111" column="46" lean-forward="false" selection-start-line="111" selection-start-column="46" selection-end-line="111" selection-end-column="46" />
+        <state relative-caret-position="335">
+          <caret line="334" column="78" lean-forward="false" selection-start-line="334" selection-start-column="78" selection-end-line="334" selection-end-column="78" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -772,6 +839,22 @@
         <state relative-caret-position="718">
           <caret line="265" column="22" lean-forward="false" selection-start-line="265" selection-start-column="22" selection-end-line="265" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_main-page.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="445" column="16" lean-forward="true" selection-start-line="445" selection-start-column="16" selection-end-line="445" selection-end-column="16" />
+          <folding>
+            <element signature="e#9153#9830#2" expanded="true" />
+            <element signature="e#9873#10554#2" expanded="true" />
+            <element signature="e#10598#11279#2" expanded="true" />
+            <element signature="e#11404#13145#2" expanded="true" />
+            <element signature="e#13337#14958#2" expanded="true" />
+            <element signature="e#15040#17089#2" expanded="true" />
+            <element signature="e#17174#19223#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

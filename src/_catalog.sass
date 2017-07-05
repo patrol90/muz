@@ -1,0 +1,83 @@
+.catalog-block
+  .aside
+    background: #f2f2f2
+    padding-top: 30px
+    h3
+      color: #000
+      font-family: FuturaPT
+      font-size: 20px
+      line-height: 27px
+      padding-bottom: 20px
+      border-bottom: 2px solid black
+      margin-bottom: 1em
+    .panel-heading
+      padding: 0px
+      background: #fff
+      text-transform: uppercase
+    .panel-title
+      padding: 10px 15px
+      a
+        width: 100%
+        font-family: $font-main
+        display: block
+        padding-bottom: 0.8em
+        border-bottom: 1px solid #cccccc
+
+      .collapsed
+        border-bottom: 0px
+        padding-bottom: 0px
+      object
+        max-height: 8px
+        max-width: 9px
+        float: right
+        transform: translateY(50%)
+    .panel-body
+      border-top: 0px!important
+      ul
+        li
+          list-style: none
+          label
+            font-family: FuturaPTBook
+            font-size: 14px
+            color: #8b8b8b
+            &:before
+              content: ""
+              display: inline-block
+              width: 12px
+              height: 12px
+              margin-right: 10px
+              bottom: 1px
+              border: 1px solid #b2b2b2
+          input[type='checkbox']
+            display: none
+            &:checked + label:before
+              border: 1px solid red
+    .price-inputs
+      .panel-body
+        display: flex
+        input
+          max-width: 50%
+          height: 32px
+          border: 1px solid  #cccccc
+          &:last-of-type
+            margin-left: -1px
+    .ui-selectmenu-button
+      color: #cccccc
+      font-size: 14px
+      font-family: FuturaPTBook
+      border-radius: 0px
+      background: #ffffff
+      border: 1px solid #cccccc
+.ui-menu
+  border-radius: 0px
+.ui-menu-item
+  line-height: 32px
+  font-size: 14px
+  font-family: FuturaPTBook
+  .ui-state-active
+    background: #444444
+    color: white
+
+
+
+

@@ -1,6 +1,8 @@
 header
   height: 216px
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15)
+  position: relative
+  z-index: 100
 
 .top-bar
   border-bottom-color: rgba(0, 0, 0, 0.2)
@@ -76,9 +78,41 @@ header
     height: 24px
   .cart
     background: url("../img/cart_ico.png")
+    position: relative
+
+    &:after
+      content: '1'
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 17px
+      color: #fff
+      font-family: $font-main
+      height: 17px
+      background: #fe2e1e
+      border-radius: 17px
+      position: absolute
+      right: -5px
+      top: 1px
+      
   .favorite
     background: url("../img/cart_ico.png")
     background-position: 100%
+
+    &:after
+      content: '1'
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 17px
+      color: #fff
+      font-family: $font-main
+      height: 17px
+      background: #fe2e1e
+      border-radius: 17px
+      position: absolute
+      right: 3px
+      top: 1px
 
 
 .phones

@@ -889,7 +889,8 @@ footer {
   align-items: center;
   cursor: pointer;
   font-size: 16px;
-  margin-right: 1em; }
+  margin-right: 1em;
+  margin-bottom: 30px; }
 
 .product-block-desc-cart .social-block object {
   width: 25px;
@@ -906,3 +907,78 @@ footer {
 
 .product-block-desc-cart .social-block .twit span {
   color: #1da1f2; }
+
+.product-block-desc-cart .info-block {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px; }
+
+.product-block-desc-cart .video-block {
+  margin: 35px 0em; }
+  .product-block-desc-cart .video-block iframe {
+    border: 6px solid #d52b1d; }
+
+.product-block-photo-char {
+  padding-right: 35px; }
+  .product-block-photo-char .main-photo img {
+    max-width: 100%;
+    outline: none; }
+  .product-block-photo-char .other-photo {
+    margin: 40px 0px;
+    display: flex; }
+    .product-block-photo-char .other-photo a img {
+      max-width: 80px;
+      margin-right: 25px; }
+  .product-block-photo-char .charat .header {
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 0.5em; }
+  .product-block-photo-char .charat h3 {
+    color: #000;
+    font-family: FuturaPTBook;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 35px;
+    margin: 0px 15px 0px 0px; }
+  .product-block-photo-char .charat table {
+    width: 100%; }
+    .product-block-photo-char .charat table tr {
+      border-bottom: 1px solid #cccccc;
+      line-height: 35px; }
+      .product-block-photo-char .charat table tr td:first-of-type {
+        font-size: 14px;
+        text-transform: uppercase; }
+      .product-block-photo-char .charat table tr td:last-of-type {
+        font-size: 18px;
+        font-family: FuturaPTBook; }
+  .product-block-photo-char .question-block {
+    margin-top: 40px;
+    border: 3px solid  #d0e9fa;
+    padding: 30px 30px; }
+    .product-block-photo-char .question-block h3 {
+      color: #d42b1e;
+      font-family: FuturaPT;
+      font-size: 24px; }
+    .product-block-photo-char .question-block form {
+      font-family: FuturaPT;
+      color: white; }
+      .product-block-photo-char .question-block form input, .product-block-photo-char .question-block form textarea {
+        background: #f9f9f9;
+        border: 1px solid #dbdbdb;
+        width: 100%;
+        margin-bottom: 11px;
+        padding: 13px;
+        color: black;
+        font-family: FuturaPTBook; }
+        .product-block-photo-char .question-block form input.placeholder, .product-block-photo-char .question-block form textarea.placeholder {
+          color: red; }
+      .product-block-photo-char .question-block form input[type='submit'] {
+        width: 230px;
+        height: 48px;
+        background-color: #434343;
+        color: white;
+        border: 0px;
+        font-family: FuturaPT;
+        transition: all 1s; }
+        .product-block-photo-char .question-block form input[type='submit']:hover {
+          background: #df2400; }

@@ -7,8 +7,13 @@
     font-family: $font-main
     color: black
     margin-bottom: 30px
+  .left
+    padding-right: 50px
   .left,.right
     padding-left: 0px
+    .form
+      .block
+        height: auto
 
     .title
       display: inline-block
@@ -96,4 +101,62 @@
         width: 28px
         height: 28px
         margin-right: 5px
-
+    .adress
+      display: inline-flex
+      position: relative
+      margin-left: 30px
+      border-bottom: 2px dotted black
+      padding-bottom: 6px
+      &:before
+        background: url("../img/contacts/mapmarker-01.svg")
+        background-repeat: no-repeat
+        content: ''
+        position: absolute
+        width: 26px
+        height: 26px
+        left: -30px
+        top: 8px
+    .contact-us
+      display: block
+      form
+        border: 3px solid #ddeffb
+        padding: 20px
+        margin-top: 20px
+        font-family: FuturaPTBook
+        line-height: 1em
+        input[type='text']
+          display: inline-block
+          height: 48px
+          padding: 12px
+          box-sizing: border-box
+          border: 1px solid #dbdbdb
+          background: #f9f9f9
+          margin-bottom: 20px
+          width: calc(49.5% - 10px)
+          &:first-of-type
+            margin-right: 20px
+        textarea
+          box-sizing: border-box
+          border: 1px solid #dbdbdb
+          background: #f9f9f9
+          height: 70px
+          resize: none
+          width: 100%
+          padding: 12px
+        input[type='submit']
+          height: 50px
+          background: #444444
+          color: white
+          border: 0px
+          font-size: 16px
+          font-family: $font-main
+          width: 230px
+          margin-top: 20px
+          transition: all 1s
+          text-transform: uppercase
+          &:hover
+            background: $primary-color
+.contacts-map
+  padding-top: 20px
+  iframe
+    width: 100%

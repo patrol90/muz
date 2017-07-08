@@ -1443,8 +1443,13 @@ footer {
   color: black;
   margin-bottom: 30px; }
 
+.contacts-page .left {
+  padding-right: 50px; }
+
 .contacts-page .left, .contacts-page .right {
   padding-left: 0px; }
+  .contacts-page .left .form .block, .contacts-page .right .form .block {
+    height: auto; }
   .contacts-page .left .title, .contacts-page .right .title {
     display: inline-block;
     color: #d42b1e;
@@ -1527,3 +1532,63 @@ footer {
     width: 28px;
     height: 28px;
     margin-right: 5px; }
+  .contacts-page .left .adress, .contacts-page .right .adress {
+    display: inline-flex;
+    position: relative;
+    margin-left: 30px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 6px; }
+    .contacts-page .left .adress:before, .contacts-page .right .adress:before {
+      background: url("../img/contacts/mapmarker-01.svg");
+      background-repeat: no-repeat;
+      content: '';
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      left: -30px;
+      top: 8px; }
+  .contacts-page .left .contact-us, .contacts-page .right .contact-us {
+    display: block; }
+    .contacts-page .left .contact-us form, .contacts-page .right .contact-us form {
+      border: 3px solid #ddeffb;
+      padding: 20px;
+      margin-top: 20px;
+      font-family: FuturaPTBook;
+      line-height: 1em; }
+      .contacts-page .left .contact-us form input[type='text'], .contacts-page .right .contact-us form input[type='text'] {
+        display: inline-block;
+        height: 48px;
+        padding: 12px;
+        box-sizing: border-box;
+        border: 1px solid #dbdbdb;
+        background: #f9f9f9;
+        margin-bottom: 20px;
+        width: calc(49.5% - 10px); }
+        .contacts-page .left .contact-us form input[type='text']:first-of-type, .contacts-page .right .contact-us form input[type='text']:first-of-type {
+          margin-right: 20px; }
+      .contacts-page .left .contact-us form textarea, .contacts-page .right .contact-us form textarea {
+        box-sizing: border-box;
+        border: 1px solid #dbdbdb;
+        background: #f9f9f9;
+        height: 70px;
+        resize: none;
+        width: 100%;
+        padding: 12px; }
+      .contacts-page .left .contact-us form input[type='submit'], .contacts-page .right .contact-us form input[type='submit'] {
+        height: 50px;
+        background: #444444;
+        color: white;
+        border: 0px;
+        font-size: 16px;
+        font-family: FuturaPT;
+        width: 230px;
+        margin-top: 20px;
+        transition: all 1s;
+        text-transform: uppercase; }
+        .contacts-page .left .contact-us form input[type='submit']:hover, .contacts-page .right .contact-us form input[type='submit']:hover {
+          background: #df2400; }
+
+.contacts-map {
+  padding-top: 20px; }
+  .contacts-map iframe {
+    width: 100%; }

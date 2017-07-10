@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="14905 2586 16.996 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d52b1e;
+      }
+    </style>
+  </defs>
+  <g id="warning-03" transform="translate(14905.03 2586)">
+    <g id="Group_2896" data-name="Group 2896" transform="translate(-0.03)">
+      <path id="Path_2027" data-name="Path 2027" class="cls-1" d="M16.773,14.139,9.489.786C9.2.286,8.846,0,8.489,0s-.714.286-1,.786L.206,14.139C-.366,15.21.134,16,1.348,16H15.63C16.773,16.067,17.273,15.21,16.773,14.139Zm-15.139.5L8.489,1.928l6.855,12.711Z" transform="translate(0.03)"/>
+      <path id="Path_2028" data-name="Path 2028" class="cls-1" d="M10.9,8.614v3.142a.714.714,0,1,0,1.428,0V8.614a.714.714,0,1,0-1.428,0Z" transform="translate(-3.095 -2.259)"/>
+      <circle id="Ellipse_15" data-name="Ellipse 15" class="cls-1" cx="0.714" cy="0.714" r="0.714" transform="translate(7.805 11.283)"/>
+    </g>
+  </g>
+</svg>

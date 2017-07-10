@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 phones">
+                    <ul>
+                        <li class="mts">8 029 577 76 24</li>
+                        <li class="vel">8 029 362 28 75</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 viber-skype">
+                    <ul>
+                        <li class="viber">Viber</li>
+                        <li class="skype">Skype</li>
+                        <li class="email">E-mail</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 work-time">
+                    <div>ПН-ПТ: 09-19, СБ:10-17, ВС-ВЫХ</div>
+                </div>
+                <div class="col-md-2 login-register">
+                    <div><a href="">Вход | Регистрация</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a href=""><img src="img/logo.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 search">
+                    <form action="">
+                        <input type="text">
+                        <input type="submit" value="">
+                    </form>
+                </div>
+                <div class="col-md-7 menu">
+                    <ul>
+                        <li>Каталог</li>
+                        <li>Оплата</li>
+                        <li>Доставка</li>
+                        <li>Акции</li>
+                        <li>Отзывы</li>
+                        <li>Контакты</li>
+                        <li>О нас</li>
+                    </ul>
+                </div>
+                <div class="col-md-1 cart-favorite">
+                    <div class="cart"></div>
+                    <div class="favorite"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</header>
+<section class="breadcrumb contacts">
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li><a href="">ГЛАВНАЯ</a></li>
+                <li class="last"><a href="">НОВОСТИ</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="checkout">
+    <div class="container">
+        <div class="row">
+            <h1>Оформление заказа</h1>
+
+            <div class="col-md-8">
+                <div class="checkout-items checkout-block">
+                    <div class="header">
+                        <a data-toggle="collapse" href="#cart-items">Товары в заказе</a>
+                    </div>
+                    <div id="cart-items" class="panel-collapse collapse in">
+                        <div class="cart-item">
+                            <div class="cart-item-img"><img src="img/checkout/gray-border.jpg" height="105"
+                                                            width="172"/></div>
+                            <div class="cart-item-desc">
+                                Педаль эффектов Palmer Pocket <br>Raio Overdrive
+                                <div class="cart-item-desc-name">Гармонь</div>
+
+                            </div>
+                            <div class="cart-item-quantity">100 ШТ</div>
+                            <div class="cart-item-price"> 215.21 РУБ </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkout-block">
+                    <div class="header">
+                        <a data-toggle="collapse" href="#delivery">Доставка</a>
+                    </div>
+                    <div id="delivery" class="panel-collapse collapse in">
+                        <ul>
+                            <li>Курьер</li>
+                            <li>Почта</li>
+                            <li>Самовывоз</li>
+                            <li>Транспортная компания</li>
+                            <li>EMS</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="checkout-block">
+                    <div class="header">
+                        <a data-toggle="collapse" href="#payment">Оплата</a>
+                    </div>
+                    <div id="payment" class="panel-collapse collapse in">
+                        <ul>
+                            <li>Наличными курьеру</li>
+                            <li>Банковской картой через терминал</li>
+                            <li><img src="img/checkout/Group%202419.svg" alt=""></li>
+                            <li><img src="img/checkout/Group%202420.svg" alt=""></li>
+                            <li><img src="img/checkout/raschet-02.svg" alt=""></li>
+                            <li>Наложенный платеж</li>
+                            <li>Расчетный счет</li>
+                            <li>Денежный перевод</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="checkout-block">
+                    <div class="header">
+                        <a data-toggle="collapse" href="#info">Персональные данные</a>
+                    </div>
+                    <div id="info" class="panel-collapse collapse in">
+                        <form action="">
+                            <p><label for="fio">ФИО</label><input  id="fio" type="text"></p>
+                            <p class="error"><label for="email">E-mail</label><input type="email" id="email" ><span>Поле должно содержать символ "@"</span></p>
+                            <p><label for="tel">Телефон</label><input type="tel" id="tel"></p>
+                            <p><label for="adr">Адрес</label><input id="adr" type="text"></p>
+                            <p><label for="comment">Комментарий</label><textarea name="" id="comment" ></textarea></p>
+                            <p><input type="submit" value="ОФОРМИТЬ ЗАКАЗ"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cart-total">
+                    <div class="header">
+                    <span class="left">  Товаров на:</span>  <span class="right">1 220.25 РУБ</span>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="body">
+                        <span class="left"> Доставка:</span> <span class="total-delivery right"> 0 РУБ</span>
+                        <div class="all-total">
+                            <span class="left"> ИТОГО:  </span>  <span class="right">1 220.25 РУБ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 bottom-logo">
+                <img src="img/logo.svg" alt="">
+                <p class="copyright">© 2017 Music-hall.by</p>
+            </div>
+            <div class="col-md-2 bottom-menu">
+                <div class="title">Категории</div>
+                <ul>
+                    <li><a href="">Весь каталог</a></li>
+                    <li><a href="">Контроллеры и клавиатуры</a></li>
+                    <li><a href="">Звуковые карты</a></li>
+                    <li><a href="">Студийные мониторы</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 bottom-menu">
+                <div class="title">Помощь</div>
+                <ul>
+                    <li><a href="">Контакты магазина</a></li>
+                    <li><a href="">Оплата и доставка</a></li>
+                    <li><a href="">Наши клиенты</a></li>
+                    <li><a href="">Новости</a></li>
+                    <li><a href="">Документы</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 bottom-menu">
+                <div class="title">Для покупателей</div>
+                <ul>
+                    <li><a href="">Корзина</a></li>
+                    <li><a href="">Сравнение</a></li>
+                    <li><a href="">Отложенные</a></li>
+                    <li><a href="">Вход</a></li>
+                    <li><a href="">Регистрация</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 contacts">
+                <div class="phones">
+                    <div class="mts"><span>8 029</span> 577 76 24</div>
+                    <div class="vel"><span>8 033</span> 362 28 75</div>
+                </div>
+                <p class="address"><img src="img/mapmarker.png" alt="">220019, г. Минск, ул.Сухаревская 28/41</p>
+                <div class="social">
+                    <ul>
+                        <li class="vk"><a href=""></a></li>
+                        <li class="insta"><a href=""></a></li>
+                        <li class="teleg"><a href=""></a></li>
+                    </ul>
+                </div>
+                <div class="off-info">
+                    BSB Bank | г. Минск, 220004, Пр-т Победителей 23-4Код банка -153001(175)Р/С IBAN:
+                    BY62UNBS301316551100020000933 (в бел.руб.)
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="down-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 menu_bottom">
+                    <ul>
+                        <li><a href="">Каталог</a></li>
+                        <li><a href="">Оплата</a></li>
+                        <li><a href="">Доставка</a></li>
+                        <li><a href="">Акции</a></li>
+                        <li><a href="">Отзывы</a></li>
+                        <li><a href="">Контакты</a></li>
+                        <li><a href="">О нас</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-offset-2 col-md-4">
+                    <div class="bottom-copyright">
+                        ИП Шелкович Виталий Евгеньевич г. Минск, ул. Сухаревская 28-41УНП - 192511707
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+</html>

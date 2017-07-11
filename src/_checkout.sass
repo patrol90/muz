@@ -138,13 +138,14 @@
     font-family: $font-main
     text-transform: uppercase
     font-size: 14px
+    position: relative
     &:before
       content: ''
       border: 10px solid transparent
       border-right: 10px solid #d0e8f9
       position: absolute
-      left: -4px
-      top: 90px
+      left: -22px
+      top: 40%
     span
       color: #d42b1e
     .left
@@ -161,8 +162,6 @@
         font-family: $font-main
         font-size: 16px
   .all-total
-
-
     margin-top: 1.5em
     width: 100%
     height: 65px
@@ -174,6 +173,35 @@
       color: #d42b1e
     .right
       margin-left: 75px
+  .delivery-help
+    margin-top: 2em
+    position: relative
+    border: 3px solid #d0e8f9
+    padding: 20px
+    font-family: $font-main
+    &:before
+      content: ''
+      border: 10px solid transparent
+      border-right: 10px solid #d0e8f9
+      position: absolute
+      left: -22px
+      top: 40%
+
+    .header-help
+      color: #d42b1e
+      font-family: $font-main
+      font-size: 14px
+      margin-bottom: 1em
+    .body
+      font-size: 12px
+      font-family: Roboto
+      margin-bottom: 1em
+    .price
+      font-size: 16px
+
+
+
+
 
 
 

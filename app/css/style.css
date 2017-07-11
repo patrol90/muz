@@ -1729,14 +1729,15 @@ footer {
   color: #000;
   font-family: FuturaPT;
   text-transform: uppercase;
-  font-size: 14px; }
+  font-size: 14px;
+  position: relative; }
   .checkout .cart-total:before {
     content: '';
     border: 10px solid transparent;
     border-right: 10px solid #d0e8f9;
     position: absolute;
-    left: -4px;
-    top: 90px; }
+    left: -22px;
+    top: 40%; }
   .checkout .cart-total span {
     color: #d42b1e; }
   .checkout .cart-total .left {
@@ -1765,3 +1766,142 @@ footer {
     color: #d42b1e; }
   .checkout .all-total .right {
     margin-left: 75px; }
+
+.checkout .delivery-help {
+  margin-top: 2em;
+  position: relative;
+  border: 3px solid #d0e8f9;
+  padding: 20px;
+  font-family: FuturaPT; }
+  .checkout .delivery-help:before {
+    content: '';
+    border: 10px solid transparent;
+    border-right: 10px solid #d0e8f9;
+    position: absolute;
+    left: -22px;
+    top: 40%; }
+  .checkout .delivery-help .header-help {
+    color: #d42b1e;
+    font-family: FuturaPT;
+    font-size: 14px;
+    margin-bottom: 1em; }
+  .checkout .delivery-help .body {
+    font-size: 12px;
+    font-family: Roboto;
+    margin-bottom: 1em; }
+  .checkout .delivery-help .price {
+    font-size: 16px; }
+
+.compare-block {
+  font-family: FuturaPT;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .compare-block table {
+    width: 100%; }
+    .compare-block table td {
+      line-height: 40px;
+      border: 1px solid #b2b2b2;
+      font-family: FuturaPTBook;
+      text-align: center; }
+    .compare-block table td.property {
+      border-left: 0px;
+      text-transform: uppercase;
+      font-family: FuturaPT;
+      padding-left: 0.5em;
+      text-align: left; }
+    .compare-block table .header td {
+      padding: 20px;
+      border-bottom: 0px;
+      position: relative; }
+      .compare-block table .header td:first-of-type {
+        border-left: 0px; }
+    .compare-block table .add-to-cart td {
+      height: 85px; }
+      .compare-block table .add-to-cart td button {
+        height: 45px;
+        background: #d52b1e;
+        border: 0px;
+        width: 200px;
+        color: white;
+        font-size: 16px;
+        font-family: FuturaPT;
+        text-transform: uppercase; }
+    .compare-block table .yes {
+      background: url("../img/product/3.svg");
+      width: 18px;
+      height: 18px;
+      margin: 0 auto; }
+    .compare-block table .no {
+      background: url("../img/product/Group7844.svg");
+      width: 18px;
+      height: 18px;
+      margin: 0 auto; }
+  .compare-block .compare-product-block-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative; }
+    .compare-block .compare-product-block-img .compare-product-block-img-action {
+      height: 49px;
+      width: 49px;
+      background: url("../img/main-carousel/Vector Smart Object.png");
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: FuturaPT;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 300;
+      position: absolute;
+      left: 10px;
+      bottom: 10px; }
+  .compare-block .compare-product-block-caption {
+    background-color: #e3462c;
+    height: 24px;
+    padding-left: 1.5em;
+    font-family: FuturaPTBook;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 24px; }
+  .compare-block .compare-product-block-info {
+    max-width: 160px;
+    word-break: break-all;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-transform: initial; }
+  .compare-block .compare-product-block-price {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left; }
+    .compare-block .compare-product-block-price .discount-price {
+      font-family: FuturaPT;
+      color: #df2400;
+      font-size: 16px;
+      font-weight: 300;
+      text-align: left; }
+    .compare-block .compare-product-block-price .old-price {
+      font-family: FuturaPT;
+      color: #1c1f1f;
+      font-size: 16px;
+      font-weight: 300;
+      text-decoration: line-through;
+      margin-left: 1em; }
+  .compare-block .compare-product-block-close {
+    background: url(../img/close.svg), #cccccc;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center center;
+    position: absolute;
+    right: 0px;
+    top: 0px; }

@@ -2,8 +2,56 @@
   padding: 0px
   border-bottom: 1px solid #cccccc
 
+.news-page
+  margin-top: 25px
+  .news-element
+    &:hover
+      color: inherit
+  .news-element-feedback
+    padding-left: 0px
+    form
+      padding: 30px
+      background: #f7f7f7
+      border: 1px solid #d0d0d0
+      input,textarea
+        background: #ffffff
+        border: 1px solid #dbdbdb
+        width: 100%
+        margin-bottom: 11px
+        padding: 13px
+        color: black
+        resize: none
+        font-family: FuturaPTBook
+      input[type='submit']
+        width: 230px
+        height: 48px
+        background-color: #434343
+        color: white
+        border: 0px
+        font-family: FuturaPT
+        transition: all 1s
+        &:hover
+          background: $primary-color
 
-.news-block-list
+      h3
+        color: #1b1f1f
+        font-family: $font-main
+        font-size: 24px
+        margin-bottom: 20px
+  .right.other-news
+    background: white
+    padding-top: 10px
+
+    .news-element-preview
+      max-height: 4em
+      overflow: hidden
+  .left
+    .news-element-date
+      .date
+        margin-top: 10px
+
+
+.news-block-list,.news-page
   .left
     padding-left: 0px
   .right
@@ -24,14 +72,11 @@
     font-size: 32px
     margin-bottom: 50px
   .news-element
-    &:hover
-      *,.news-element-title
-        color: $primary-color
-        transition: all 1s
     margin-bottom: 50px
     &:last-of-type
       margin-bottom: 0px
-
+    .feedbacks
+      line-height: 2em
 
     .news-element-img
       img
@@ -40,6 +85,34 @@
     .news-element-date
       display: flex
       align-items: center
+    .news-element-social
+      position: relative
+      padding: 15px 0px
+      border-bottom: 1px solid #cccccc
+      display: flex
+      align-items: center
+      .feedbacks
+        position: absolute
+        right: 200px
+        color: #cccccc
+      .author
+        position: absolute
+        right: 0px
+        color: #d52b1e
+        font-family: Roboto
+        span
+          font-family: inherit
+          color: black
+      .social-block
+        display: inline-flex
+      div
+        margin-bottom: 0px
+    .news-element-content
+      font-family: Roboto
+      margin-top: 30px
+
+
+
     .date
       display: inline-block
       margin: 20px 15px 20px 0px
@@ -69,6 +142,7 @@
       text-transform: uppercase
       font-size: 16px
       margin-bottom: 10px
+      line-height: 24px
 
     padding-left: 0px
     color: #000
